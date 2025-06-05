@@ -63,7 +63,7 @@
   height: calc(259.98px * var(--scale-393));
   top: calc(134.05px * var(--scale-393));
   left: calc(16.63px * var(--scale-393));
-  background-image: url(/public/img/kosmodrom-1.svg);
+  background-image: url(/public/img/kosmodrom-1.png);
 }
 
 .kosmodrom-2 {
@@ -71,7 +71,7 @@
   height: calc(326.73px * var(--scale-393));
   top: calc(0px * var(--scale-393));
   left: calc(212.55px * var(--scale-393));
-  background-image: url(/public/img/kosmodrom-2.svg);
+  background-image: url(/public/img/kosmodrom-2.png);
 }
 
 .kosmodrom-3 {
@@ -79,7 +79,7 @@
   height: calc(268.77px * var(--scale-393));
   top: calc(127.54px * var(--scale-393));
   left: calc(480.45px * var(--scale-393));
-  background-image: url(/public/img/kosmodrom-3.svg);
+  background-image: url(/public/img/kosmodrom-3.png);
 }
 
 .kosmodrom-4 {
@@ -87,7 +87,7 @@
   height: calc(242.07px * var(--scale-393));
   top: calc(502.67px * var(--scale-393));
   left: calc(0px * var(--scale-393));
-  background-image: url(/public/img/kosmodrom-4.svg);
+  background-image: url(/public/img/kosmodrom-4.png);
 }
 
 .kosmodrom-5 {
@@ -95,7 +95,7 @@
   height: calc(226.61px * var(--scale-393));
   top: calc(671.39px * var(--scale-393));
   left: calc(150.87px * var(--scale-393));
-  background-image: url(/public/img/kosmodrom-5.svg);
+  background-image: url(/public/img/kosmodrom-5.png);
 }
 
 .kosmodrom-6 {
@@ -103,7 +103,7 @@
   height: calc(249.44px * var(--scale-393));
   top: calc(628.34px * var(--scale-393));
   left: calc(425.9px * var(--scale-393));
-  background-image: url(/public/img/kosmodrom-6.svg);
+  background-image: url(/public/img/kosmodrom-6.png);
 }
 
 .kosmodrom-7 {
@@ -111,7 +111,7 @@
   height: calc(314.44px * var(--scale-393));
   top: calc(345.82px * var(--scale-393));
   left: calc(579.85px * var(--scale-393));
-  background-image: url(/public/img/kosmodrom-7.svg);
+  background-image: url(/public/img/kosmodrom-7.png);
 }
 
 .center {
@@ -119,7 +119,7 @@
   height: calc(242.07px * var(--scale-393));
   top: calc(345.59px * var(--scale-393));
   left: calc(219.8px * var(--scale-393));
-  background-image: url(/public/img/center.svg);
+  background-image: url(/public/img/center.png);
 }
 
 .road-1 {
@@ -127,7 +127,7 @@
   height: calc(53.59px * var(--scale-393));
   top: calc(831.55px * var(--scale-393));
   left: calc(304.9px * var(--scale-393));
-  background-image: url(/public/img/road-1.svg);
+  background-image: url(/public/img/road-1.png);
 }
 
 .road-2 {
@@ -135,7 +135,7 @@
   height: calc(219.91px * var(--scale-393));
   top: calc(560.17px * var(--scale-393));
   left: calc(241.38px * var(--scale-393));
-  background-image: url(/public/img/road-2.svg);
+  background-image: url(/public/img/road-2.png);
 }
 
 .road-3 {
@@ -143,7 +143,7 @@
   height: calc(83.16px * var(--scale-393));
   top: calc(454.58px * var(--scale-393));
   left: calc(79.46px * var(--scale-393));
-  background-image: url(/public/img/road-3.svg);
+  background-image: url(/public/img/road-3.png);
 }
 
 .road-4 {
@@ -151,7 +151,7 @@
   height: calc(60.98px * var(--scale-393));
   top: calc(323.38px * var(--scale-393));
   left: calc(197.72px * var(--scale-393));
-  background-image: url(/public/img/road-4.svg);
+  background-image: url(/public/img/road-4.png);
 }
 
 .road-5 {
@@ -159,7 +159,7 @@
   height: calc(116.28px * var(--scale-393));
   top: calc(250.22px * var(--scale-393));
   left: calc(405.66px * var(--scale-393));
-  background-image: url(/public/img/road-5.svg);
+  background-image: url(/public/img/road-5.png);
 }
 
 .road-6 {
@@ -167,7 +167,7 @@
   height: calc(68.47px * var(--scale-393));
   top: calc(327.93px * var(--scale-393));
   left: calc(476.58px * var(--scale-393));
-  background-image: url(/public/img/road-6.svg);
+  background-image: url(/public/img/road-6.png);
 }
 
 .road-7 {
@@ -175,7 +175,7 @@
   height: calc(82.35px * var(--scale-393));
   top: calc(543.87px * var(--scale-393));
   left: calc(472.19px * var(--scale-393));
-  background-image: url(/public/img/road-7.svg);
+  background-image: url(/public/img/road-7.png);
 }
 
 
@@ -191,7 +191,7 @@
   height: calc(259.98px * var(--scale-412));
   top: calc(134.05px * var(--scale-412));
   left: calc(16.63px * var(--scale-412));
-  background-image: url(/public/img/kosmodrom-1.svg);
+  background-image: url(/public/img/kosmodrom-1.png);
 }
 
 .kosmodrom-2 {
@@ -199,7 +199,7 @@
   height: calc(326.73px * var(--scale-412));
   top: calc(0px * var(--scale-412));
   left: calc(212.55px * var(--scale-412));
-  background-image: url(/public/img/kosmodrom-2.svg);
+  background-image: url(/public/img/kosmodrom-2.png);
 }
 
 .kosmodrom-3 {
@@ -207,7 +207,7 @@
   height: calc(268.77px * var(--scale-412));
   top: calc(127.54px * var(--scale-412));
   left: calc(480.45px * var(--scale-412));
-  background-image: url(/public/img/kosmodrom-3.svg);
+  background-image: url(/public/img/kosmodrom-3.png);
 }
 
 .kosmodrom-4 {
@@ -215,7 +215,7 @@
   height: calc(242.07px * var(--scale-412));
   top: calc(502.67px * var(--scale-412));
   left: calc(0px * var(--scale-412));
-  background-image: url(/public/img/kosmodrom-4.svg);
+  background-image: url(/public/img/kosmodrom-4.png);
 }
 
 .kosmodrom-5 {
@@ -223,7 +223,7 @@
   height: calc(226.61px * var(--scale-412));
   top: calc(671.39px * var(--scale-412));
   left: calc(150.87px * var(--scale-412));
-  background-image: url(/public/img/kosmodrom-5.svg);
+  background-image: url(/public/img/kosmodrom-5.png);
 }
 
 .kosmodrom-6 {
@@ -231,7 +231,7 @@
   height: calc(249.44px * var(--scale-412));
   top: calc(628.34px * var(--scale-412));
   left: calc(425.9px * var(--scale-412));
-  background-image: url(/public/img/kosmodrom-6.svg);
+  background-image: url(/public/img/kosmodrom-6.png);
 }
 
 .kosmodrom-7 {
@@ -239,7 +239,7 @@
   height: calc(314.44px * var(--scale-412));
   top: calc(345.82px * var(--scale-412));
   left: calc(579.85px * var(--scale-412));
-  background-image: url(/public/img/kosmodrom-7.svg);
+  background-image: url(/public/img/kosmodrom-7.png);
 }
 
 .center {
@@ -247,7 +247,7 @@
   height: calc(242.07px * var(--scale-412));
   top: calc(345.59px * var(--scale-412));
   left: calc(219.8px * var(--scale-412));
-  background-image: url(/public/img/center.svg);
+  background-image: url(/public/img/center.png);
 }
 
 .road-1 {
@@ -255,7 +255,7 @@
   height: calc(53.59px * var(--scale-412));
   top: calc(831.55px * var(--scale-412));
   left: calc(304.9px * var(--scale-412));
-  background-image: url(/public/img/road-1.svg);
+  background-image: url(/public/img/road-1.png);
 }
 
 .road-2 {
@@ -263,7 +263,7 @@
   height: calc(219.91px * var(--scale-412));
   top: calc(560.17px * var(--scale-412));
   left: calc(241.38px * var(--scale-412));
-  background-image: url(/public/img/road-2.svg);
+  background-image: url(/public/img/road-2.png);
 }
 
 .road-3 {
@@ -271,7 +271,7 @@
   height: calc(83.16px * var(--scale-412));
   top: calc(454.58px * var(--scale-412));
   left: calc(79.46px * var(--scale-412));
-  background-image: url(/public/img/road-3.svg);
+  background-image: url(/public/img/road-3.png);
 }
 
 .road-4 {
@@ -279,7 +279,7 @@
   height: calc(60.98px * var(--scale-412));
   top: calc(323.38px * var(--scale-412));
   left: calc(197.72px * var(--scale-412));
-  background-image: url(/public/img/road-4.svg);
+  background-image: url(/public/img/road-4.png);
 }
 
 .road-5 {
@@ -287,7 +287,7 @@
   height: calc(116.28px * var(--scale-412));
   top: calc(250.22px * var(--scale-412));
   left: calc(405.66px * var(--scale-412));
-  background-image: url(/public/img/road-5.svg);
+  background-image: url(/public/img/road-5.png);
 }
 
 .road-6 {
@@ -295,7 +295,7 @@
   height: calc(68.47px * var(--scale-412));
   top: calc(327.93px * var(--scale-412));
   left: calc(476.58px * var(--scale-412));
-  background-image: url(/public/img/road-6.svg);
+  background-image: url(/public/img/road-6.png);
 }
 
 .road-7 {
@@ -303,7 +303,7 @@
   height: calc(82.35px * var(--scale-412));
   top: calc(543.87px * var(--scale-412));
   left: calc(472.19px * var(--scale-412));
-  background-image: url(/public/img/road-7.svg);
+  background-image: url(/public/img/road-7.png);
 }
 }
 
