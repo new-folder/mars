@@ -1,0 +1,436 @@
+.second-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.time-background {
+  position: absolute;
+  width: 4096px;
+  height: 100%;
+  background-image: url('/public/img/panorama.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  will-change: background-position;
+  transition: background-position-x 1s ease-in-out;
+}
+
+/* Базовые стили (Mobile First - 393x852) */
+.kosmodrom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.kosmodrom-grid {
+  position: relative;
+  width: 386.9px;
+  height: 462px;
+  transform-origin: center center;
+  margin-top: 40px;
+}
+
+.kosmodrom-element {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.road-1, .road-2, .road-3, .road-4, .road-5, .road-6, .road-7 {
+  z-index: 1;
+  background-image: var(--road-image);
+}
+
+.kosmodrom-1, .kosmodrom-2, .kosmodrom-3, 
+.kosmodrom-4, .kosmodrom-5, .kosmodrom-6, 
+.kosmodrom-7, .center {
+  z-index: 2;
+  background-image: var(--kosmodrom-image);
+}
+
+:root {
+  --scale-393: calc(386.9 / 752);
+  --scale-412: calc(408 / 752);   
+}
+
+.kosmodrom-1 {
+  width: calc(259.98px * var(--scale-393));
+  height: calc(259.98px * var(--scale-393));
+  top: calc(134.05px * var(--scale-393));
+  left: calc(16.63px * var(--scale-393));
+  background-image: url(/public/img/kosmodrom-1.svg);
+}
+
+.kosmodrom-2 {
+  width: calc(326.73px * var(--scale-393));
+  height: calc(326.73px * var(--scale-393));
+  top: calc(0px * var(--scale-393));
+  left: calc(212.55px * var(--scale-393));
+  background-image: url(/public/img/kosmodrom-2.svg);
+}
+
+.kosmodrom-3 {
+  width: calc(268.77px * var(--scale-393));
+  height: calc(268.77px * var(--scale-393));
+  top: calc(127.54px * var(--scale-393));
+  left: calc(480.45px * var(--scale-393));
+  background-image: url(/public/img/kosmodrom-3.svg);
+}
+
+.kosmodrom-4 {
+  width: calc(243.92px * var(--scale-393));
+  height: calc(242.07px * var(--scale-393));
+  top: calc(502.67px * var(--scale-393));
+  left: calc(0px * var(--scale-393));
+  background-image: url(/public/img/kosmodrom-4.svg);
+}
+
+.kosmodrom-5 {
+  width: calc(228.36px * var(--scale-393));
+  height: calc(226.61px * var(--scale-393));
+  top: calc(671.39px * var(--scale-393));
+  left: calc(150.87px * var(--scale-393));
+  background-image: url(/public/img/kosmodrom-5.svg);
+}
+
+.kosmodrom-6 {
+  width: calc(249.44px * var(--scale-393));
+  height: calc(249.44px * var(--scale-393));
+  top: calc(628.34px * var(--scale-393));
+  left: calc(425.9px * var(--scale-393));
+  background-image: url(/public/img/kosmodrom-6.svg);
+}
+
+.kosmodrom-7 {
+  width: calc(172.15px * var(--scale-393));
+  height: calc(314.44px * var(--scale-393));
+  top: calc(345.82px * var(--scale-393));
+  left: calc(579.85px * var(--scale-393));
+  background-image: url(/public/img/kosmodrom-7.svg);
+}
+
+.center {
+  width: calc(323.38px * var(--scale-393));
+  height: calc(242.07px * var(--scale-393));
+  top: calc(345.59px * var(--scale-393));
+  left: calc(219.8px * var(--scale-393));
+  background-image: url(/public/img/center.svg);
+}
+
+.road-1 {
+  width: calc(203.27px * var(--scale-393));
+  height: calc(53.59px * var(--scale-393));
+  top: calc(831.55px * var(--scale-393));
+  left: calc(304.9px * var(--scale-393));
+  background-image: url(/public/img/road-1.svg);
+}
+
+.road-2 {
+  width: calc(117.95px * var(--scale-393));
+  height: calc(219.91px * var(--scale-393));
+  top: calc(560.17px * var(--scale-393));
+  left: calc(241.38px * var(--scale-393));
+  background-image: url(/public/img/road-2.svg);
+}
+
+.road-3 {
+  width: calc(153.37px * var(--scale-393));
+  height: calc(83.16px * var(--scale-393));
+  top: calc(454.58px * var(--scale-393));
+  left: calc(79.46px * var(--scale-393));
+  background-image: url(/public/img/road-3.svg);
+}
+
+.road-4 {
+  width: calc(92.39px * var(--scale-393));
+  height: calc(60.98px * var(--scale-393));
+  top: calc(323.38px * var(--scale-393));
+  left: calc(197.72px * var(--scale-393));
+  background-image: url(/public/img/road-4.svg);
+}
+
+.road-5 {
+  width: calc(92.93px * var(--scale-393));
+  height: calc(116.28px * var(--scale-393));
+  top: calc(250.22px * var(--scale-393));
+  left: calc(405.66px * var(--scale-393));
+  background-image: url(/public/img/road-5.svg);
+}
+
+.road-6 {
+  width: calc(95.01px * var(--scale-393));
+  height: calc(68.47px * var(--scale-393));
+  top: calc(327.93px * var(--scale-393));
+  left: calc(476.58px * var(--scale-393));
+  background-image: url(/public/img/road-6.svg);
+}
+
+.road-7 {
+  width: calc(143.33px * var(--scale-393));
+  height: calc(82.35px * var(--scale-393));
+  top: calc(543.87px * var(--scale-393));
+  left: calc(472.19px * var(--scale-393));
+  background-image: url(/public/img/road-7.svg);
+}
+
+
+
+@media (min-width: 412px) {
+  .kosmodrom-grid {
+    width: 408px;
+    height: 484.8px;
+    margin-top: 90px;
+  }
+  .kosmodrom-1 {
+  width: calc(259.98px * var(--scale-412));
+  height: calc(259.98px * var(--scale-412));
+  top: calc(134.05px * var(--scale-412));
+  left: calc(16.63px * var(--scale-412));
+  background-image: url(/public/img/kosmodrom-1.svg);
+}
+
+.kosmodrom-2 {
+  width: calc(326.73px * var(--scale-412));
+  height: calc(326.73px * var(--scale-412));
+  top: calc(0px * var(--scale-412));
+  left: calc(212.55px * var(--scale-412));
+  background-image: url(/public/img/kosmodrom-2.svg);
+}
+
+.kosmodrom-3 {
+  width: calc(268.77px * var(--scale-412));
+  height: calc(268.77px * var(--scale-412));
+  top: calc(127.54px * var(--scale-412));
+  left: calc(480.45px * var(--scale-412));
+  background-image: url(/public/img/kosmodrom-3.svg);
+}
+
+.kosmodrom-4 {
+  width: calc(243.92px * var(--scale-412));
+  height: calc(242.07px * var(--scale-412));
+  top: calc(502.67px * var(--scale-412));
+  left: calc(0px * var(--scale-412));
+  background-image: url(/public/img/kosmodrom-4.svg);
+}
+
+.kosmodrom-5 {
+  width: calc(228.36px * var(--scale-412));
+  height: calc(226.61px * var(--scale-412));
+  top: calc(671.39px * var(--scale-412));
+  left: calc(150.87px * var(--scale-412));
+  background-image: url(/public/img/kosmodrom-5.svg);
+}
+
+.kosmodrom-6 {
+  width: calc(249.44px * var(--scale-412));
+  height: calc(249.44px * var(--scale-412));
+  top: calc(628.34px * var(--scale-412));
+  left: calc(425.9px * var(--scale-412));
+  background-image: url(/public/img/kosmodrom-6.svg);
+}
+
+.kosmodrom-7 {
+  width: calc(172.15px * var(--scale-412));
+  height: calc(314.44px * var(--scale-412));
+  top: calc(345.82px * var(--scale-412));
+  left: calc(579.85px * var(--scale-412));
+  background-image: url(/public/img/kosmodrom-7.svg);
+}
+
+.center {
+  width: calc(323.38px * var(--scale-412));
+  height: calc(242.07px * var(--scale-412));
+  top: calc(345.59px * var(--scale-412));
+  left: calc(219.8px * var(--scale-412));
+  background-image: url(/public/img/center.svg);
+}
+
+.road-1 {
+  width: calc(203.27px * var(--scale-412));
+  height: calc(53.59px * var(--scale-412));
+  top: calc(831.55px * var(--scale-412));
+  left: calc(304.9px * var(--scale-412));
+  background-image: url(/public/img/road-1.svg);
+}
+
+.road-2 {
+  width: calc(117.95px * var(--scale-412));
+  height: calc(219.91px * var(--scale-412));
+  top: calc(560.17px * var(--scale-412));
+  left: calc(241.38px * var(--scale-412));
+  background-image: url(/public/img/road-2.svg);
+}
+
+.road-3 {
+  width: calc(153.37px * var(--scale-412));
+  height: calc(83.16px * var(--scale-412));
+  top: calc(454.58px * var(--scale-412));
+  left: calc(79.46px * var(--scale-412));
+  background-image: url(/public/img/road-3.svg);
+}
+
+.road-4 {
+  width: calc(92.39px * var(--scale-412));
+  height: calc(60.98px * var(--scale-412));
+  top: calc(323.38px * var(--scale-412));
+  left: calc(197.72px * var(--scale-412));
+  background-image: url(/public/img/road-4.svg);
+}
+
+.road-5 {
+  width: calc(92.93px * var(--scale-412));
+  height: calc(116.28px * var(--scale-412));
+  top: calc(250.22px * var(--scale-412));
+  left: calc(405.66px * var(--scale-412));
+  background-image: url(/public/img/road-5.svg);
+}
+
+.road-6 {
+  width: calc(95.01px * var(--scale-412));
+  height: calc(68.47px * var(--scale-412));
+  top: calc(327.93px * var(--scale-412));
+  left: calc(476.58px * var(--scale-412));
+  background-image: url(/public/img/road-6.svg);
+}
+
+.road-7 {
+  width: calc(143.33px * var(--scale-412));
+  height: calc(82.35px * var(--scale-412));
+  top: calc(543.87px * var(--scale-412));
+  left: calc(472.19px * var(--scale-412));
+  background-image: url(/public/img/road-7.svg);
+}
+}
+
+@media (min-width: 1024px) {
+  .kosmodrom-grid {
+    width: 752px;
+    height: 897.96px;
+    margin-top: 120px;
+  }
+  
+  .kosmodrom-1 {
+    width: 259.98px;
+    height: 259.98px;
+    top: 134.05px;
+    left: 16.63px;
+    transform: none;
+  }
+  
+  .kosmodrom-2 {
+    width: 326.73px;
+    height: 326.73px;
+    top: 0;
+    left: 212.55px;
+    transform: none;
+  }
+  
+  .kosmodrom-3 {
+    width: 268.77px;
+    height: 268.77px;
+    top: 127.54px;
+    left: 480.45px;
+    transform: none;
+  }
+  
+  .kosmodrom-4 {
+    width: 243.92px;
+    height: 242.07px;
+    top: 502.67px;
+    left: 0;
+    transform: none;
+  }
+  
+  .kosmodrom-5 {
+    width: 228.36px;
+    height: 226.61px;
+    top: 671.39px;
+    left: 150.87px;
+    transform: none;
+  }
+  
+  .kosmodrom-6 {
+    width: 249.44px;
+    height: 249.44px;
+    top: 628.34px;
+    left: 425.9px;
+    transform: none;
+  }
+  
+  .kosmodrom-7 {
+    width: 172.15px;
+    height: 314.44px;
+    top: 345.82px;
+    left: 579.85px;
+    transform: none;
+  }
+  
+  .center {
+    width: 323.38px;
+    height: 242.07px;
+    top: 345.59px;
+    left: 219.8px;
+    transform: none;
+  }
+  
+  .road-1 {
+    width: 203.27px;
+    height: 53.59px;
+    top: 831.55px;
+    left: 304.9px;
+    transform: none;
+  }
+  
+  .road-2 {
+    width: 117.95px;
+    height: 219.91px;
+    top: 560.17px;
+    left: 241.38px;
+    transform: none;
+  }
+  
+  .road-3 {
+    width: 153.37px;
+    height: 83.16px;
+    top: 454.58px;
+    left: 79.46px;
+    transform: none;
+  }
+  
+  .road-4 {
+    width: 92.39px;
+    height: 60.98px;
+    top: 323.38px;
+    left: 197.72px;
+    transform: none;
+  }
+  
+  .road-5 {
+    width: 92.93px;
+    height: 116.28px;
+    top: 250.22px;
+    left: 405.66px;
+    transform: none;
+  }
+  
+  .road-6 {
+    width: 95.01px;
+    height: 68.47px;
+    top: 327.93px;
+    left: 476.58px;
+    transform: none;
+  }
+  
+  .road-7 {
+    width: 143.33px;
+    height: 82.35px;
+    top: 543.87px;
+    left: 472.19px;
+    transform: none;
+  }
+}

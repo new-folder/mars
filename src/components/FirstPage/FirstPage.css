@@ -1,0 +1,56 @@
+.first-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #043336 0%, #cc5500 100%);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.background-container {
+  width: 100%;
+  height: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.background-image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.first-name {
+    width: 312px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.background-image {
+    width: 100%;
+    background-size:150%
+}
+
+@media (min-width: 393px) {
+  .background-image {
+    background-size:120%
+  }
+    .first-name {
+    width: 324px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .background-image {
+    background-size:100%
+  }
+    .first-name {
+  width: 732px;
+  }
+}
